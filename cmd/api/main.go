@@ -12,7 +12,6 @@ func main() {
 	if err != nil {
 		log.Fatal("Error loading .env file")
 	}
-
 	app := server.New()
 	app.RegisterFiberRoutes()
 	app.Listen(":8000")
