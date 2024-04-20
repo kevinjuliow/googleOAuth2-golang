@@ -23,7 +23,7 @@ tmp/
 .idea
 
 # .env file
-.env
+cmd/api/.env
 
 # Project build
 main
